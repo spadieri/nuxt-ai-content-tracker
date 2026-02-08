@@ -25,3 +25,6 @@ Thumbs.db
 
 # Test
 coverage
+
+# CI/CD (enable when ready for release)
+.github

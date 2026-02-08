@@ -1,5 +1,19 @@
 import { defineNuxtModule, addComponentsDir, addImportsDir, createResolver } from '@nuxt/kit'
-import type { ModuleOptions } from './runtime/types'
+
+export interface ModuleOptions {
+  weights?: {
+    research?: number
+    generation?: number
+    review?: number
+  }
+  percentages?: {
+    researchMethod?: Record<string, number>
+    contentGeneration?: Record<string, number>
+    articleReview?: Record<string, number>
+  }
+  components?: boolean
+  componentPrefix?: string
+}
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
@@ -56,5 +70,3 @@ export default defineNuxtModule<ModuleOptions>({
     }
   }
 })
-
-export type { ModuleOptions, ContentMethodology, ElementAIPercentage, MethodologyAIBreakdown } from './runtime/types'

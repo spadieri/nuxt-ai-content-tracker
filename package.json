@@ -21,14 +21,10 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/types.d.ts",
-      "import": "./dist/module.mjs",
-      "require": "./dist/module.cjs"
+      "import": "./dist/module.mjs"
     }
   },
-  "main": "./dist/module.cjs",
-  "module": "./dist/module.mjs",
-  "types": "./dist/types.d.ts",
+  "main": "./dist/module.mjs",
   "files": [
     "dist"
   ],
@@ -51,6 +47,7 @@
     "@nuxt/schema": "latest",
     "nuxt": "latest",
     "typescript": "latest",
-    "vue": "latest"
+    "vue": "latest",
+    "vue-tsc": "^3.2.4"
   }
 }
