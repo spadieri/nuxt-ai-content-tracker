@@ -1,12 +1,12 @@
 {
-  "name": "nuxt-ai-content-transparency",
+  "name": "nuxt-ai-content-tracker",
   "version": "1.0.0",
-  "description": "A Nuxt module for tracking and displaying AI usage transparency in content creation",
+  "description": "A Nuxt module for tracking and displaying AI usage in content creation",
   "author": "spadieri",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spadieri/nuxt-ai-content-transparency.git"
+    "url": "git+https://github.com/spadieri/nuxt-ai-content-tracker.git"
   },
   "keywords": [
     "nuxt",
@@ -14,6 +14,7 @@
     "ai",
     "transparency",
     "content",
+    "tracker",
     "methodology",
     "artificial-intelligence"
   ],

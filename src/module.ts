@@ -3,7 +3,7 @@ import type { ModuleOptions } from './runtime/types'
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'nuxt-ai-content-transparency',
+    name: 'nuxt-ai-content-tracker',
     configKey: 'aiTransparency',
     compatibility: {
       nuxt: '>=3.0.0'

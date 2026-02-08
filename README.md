@@ -1,4 +1,4 @@
-# nuxt-ai-content-transparency
+# nuxt-ai-content-tracker
 
 [![npm version][npm-version-src]][npm-version-href]
 [![License][license-src]][license-href]
@@ -19,14 +19,14 @@ A Nuxt module for tracking and displaying AI usage transparency in content creat
 Install the module:
 
 ```bash
-npm install nuxt-ai-content-transparency
+npm install nuxt-ai-content-tracker
 ```
 
 Add to your `nuxt.config.ts`:
 
 ```ts
 export default defineNuxtConfig({
-  modules: ['nuxt-ai-content-transparency'],
+  modules: ['nuxt-ai-content-tracker'],
 
   aiTransparency: {
     // Optional: customize weights
@@ -132,7 +132,7 @@ interface ContentMethodology {
 
 ```ts
 export default defineNuxtConfig({
-  modules: ['nuxt-ai-content-transparency'],
+  modules: ['nuxt-ai-content-tracker'],
 
   aiTransparency: {
     // Weights for weighted average (must sum to 1.0)
@@ -215,9 +215,9 @@ npm run prepack
 MIT License © 2025 spadieri
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-ai-content-transparency/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/nuxt-ai-content-transparency
-[license-src]: https://img.shields.io/npm/l/nuxt-ai-content-transparency.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://github.com/spadieri/nuxt-ai-content-transparency/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-ai-content-tracker/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt-ai-content-tracker
+[license-src]: https://img.shields.io/npm/l/nuxt-ai-content-tracker.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://github.com/spadieri/nuxt-ai-content-tracker/blob/main/LICENSE
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
