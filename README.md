@@ -210,9 +210,17 @@ npm run dev
 npm run prepack
 ```
 
+## Contributing
+
+Contributions are welcome! Please follow [Conventional Commits](https://www.conventionalcommits.org/) for commit messages:
+
+- `feat: add new feature` - for new features (bumps minor version)
+- `fix: fix bug` - for bug fixes (bumps patch version)
+- `feat!: breaking change` - for breaking changes (bumps major version)
+
 ## License
 
-MIT License © 2025 spadieri
+MIT License © 2026 spadieri
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-ai-content-tracker/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
