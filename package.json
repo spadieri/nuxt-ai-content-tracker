@@ -1,0 +1,55 @@
+{
+  "name": "nuxt-ai-content-transparency",
+  "version": "1.0.0",
+  "description": "A Nuxt module for tracking and displaying AI usage transparency in content creation",
+  "author": "spadieri",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spadieri/nuxt-ai-content-transparency.git"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "ai",
+    "transparency",
+    "content",
+    "methodology",
+    "artificial-intelligence"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "module": "./dist/module.mjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
+    "release": "npm run prepack && npm publish",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "dependencies": {
+    "@nuxt/kit": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/module-builder": "latest",
+    "@nuxt/schema": "latest",
+    "nuxt": "latest",
+    "typescript": "latest",
+    "vue": "latest"
+  }
+}

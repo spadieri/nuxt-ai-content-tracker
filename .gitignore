@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+.nuxt
+.output
+
+# IDE
+.idea
+.vscode
+*.sw*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Test
+coverage
